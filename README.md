@@ -76,7 +76,7 @@ NEXT_PUBLIC_OMDB_API_KEY=your_api_key_here
 Then update the API key reference in `app/page.tsx`:
 
 ```typescript
-const OMDB_API_KEY = process.env.NEXT_PUBLIC_OMDB_API_KEY || 'YOUR_OMDB_API_KEY';
+const OMDB_API_KEY = process.env.NEXT_PUBLIC_OMDB_API_KEY || 'n/a';
 ```
 
 ## Usage

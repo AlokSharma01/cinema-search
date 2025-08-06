@@ -233,7 +233,7 @@ export default function Home() {
         
         {!loading && !error && searchQuery && movies.length === 0 && (
           <div className="text-center py-8">
-            <p className="text-text-muted">No movies found for "{searchQuery}"</p>
+            <p className="text-text-muted">No movies found for &quot;{searchQuery}&quot;</p>
           </div>
         )}
 
